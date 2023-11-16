@@ -34,6 +34,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* margin-bottom: 84px; */
 }
 
 .banner_text_1 {
@@ -55,3 +56,85 @@ a {
   line-height: normal;
 }
 
+.container {
+  padding-top: 84px;
+  padding-right: 98px;
+  padding-left: 100px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.leftdiv {
+  width: 240px;
+  height: 230px;
+  display: flex;
+  flex-flow: wrap;
+  margin-right: 78px;
+}
+
+.leftdivtext_1 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.leftdivtext_2 {
+  color: #010101;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.leftdivtext_3 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rightdiv {
+  width: 924px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.imgdiv{
+  width: 286px;
+}
+.img {
+  width: 286px;
+  height: 195px;
+}
+
+h2 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+  margin-bottom: 9px;
+}
+
+h3 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 56px;
+}
